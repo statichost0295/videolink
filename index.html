@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Leech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: black;
+            color: white;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .option {
+            margin: 15px 0; /* Increased margin between buttons */
+        }
+        .note {
+            font-size: 0.9em;
+            color: #aaa;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px; /* Adjusted padding */
+            text-decoration: none;
+            border-radius: 8px; /* Slightly larger border radius */
+            margin: 8px auto; /* Centered with vertical spacing */
+            text-align: center;
+            width: auto; /* Auto width instead of 100% */
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+        }
+
+        /* Universal Red Gradient for All Buttons */
+        .button {
+            background: linear-gradient(135deg, #FF3B3B, #FF1A1A); /* Strong red gradient */
+            color: white; /* White text for all buttons */
+        }
+
+        .button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px); /* Added hover effect */
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Video Leech</h1>
+        <p>Please select a download option:</p>
+
+        <!-- Buttons with Consistent Red Style -->
+        <div class="option">
+            <a href="https://drive.google.com/your-video-link-1" class="button" target="_blank">
+                Fast Server (G-Drive)
+            </a>
+        </div>
+
+        <div class="option">
+            <a href="https://drive.google.com/your-video-link-2" class="button" target="_blank">
+                Gdrive Links (Login Required)
+            </a>
+        </div>
+
+        <div class="option">
+            <a href="https://drive.google.com/your-video-link-3" class="button" target="_blank">
+                G-Direct (No Resume Support)
+            </a>
+        </div>
+
+        <div class="option">
+            <a href="https://onedrive.live.com/your-video-link-4" class="button" target="_blank">
+                OneDrive
+            </a>
+        </div>
+
+        <div class="option">
+            <a href="https://example.com/your-video-link-5" class="button" target="_blank">
+                Other Download Links
+            </a>
+        </div>
+
+        <p class="note">*** If any file is in (.zip) format, please unzip it after downloading. ***</p>
+    </div>
+</body>
+</html>
