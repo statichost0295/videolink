@@ -20,37 +20,48 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
         .option {
-            margin: 15px 0; /* Increased margin between buttons */
+            margin: 15px 0;
         }
         .note {
             font-size: 0.9em;
             color: #aaa;
             margin-top: 20px;
+            font-weight: bold; /* Bold text for note */
         }
         .button {
             display: inline-block;
-            padding: 12px 25px; /* Adjusted padding */
+            padding: 12px 25px;
             text-decoration: none;
-            border-radius: 8px; /* Slightly larger border radius */
-            margin: 8px auto; /* Centered with vertical spacing */
+            border-radius: 8px;
+            margin: 8px auto;
             text-align: center;
-            width: auto; /* Auto width instead of 100% */
+            width: auto;
             font-size: 16px;
             border: none;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            font-weight: bold; /* Bold text for all buttons */
         }
 
-        /* Universal Red Gradient for All Buttons */
+        /* Vibrant Red Gradient for Regular Buttons */
         .button {
-            background: linear-gradient(135deg, #FF3B3B, #FF1A1A); /* Strong red gradient */
-            color: white; /* White text for all buttons */
+            background: linear-gradient(135deg, #FF0000, #FF3333); /* More vibrant red gradient */
+            color: white;
+        }
+
+        /* New Large Green Button */
+        .button-large {
+            padding: 20px 35px; /* Larger padding */
+            font-size: 18px; /* Bigger text */
+            background: linear-gradient(135deg, #28a745, #20c997); /* Green gradient */
+            width: 80%; /* Custom width */
+            margin: 25px auto; /* Extra spacing */
         }
 
         .button:hover {
             opacity: 0.9;
-            transform: translateY(-1px); /* Added hover effect */
+            transform: translateY(-1px);
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
         }
 
@@ -61,37 +72,49 @@
         <h1>Video Leech</h1>
         <p>Please select a download option:</p>
 
-        <!-- Buttons with Consistent Red Style -->
+        <!-- Button 1: Fast Server (G-Drive) -->
         <div class="option">
-            <a href="https://drive.google.com/your-video-link-1" class="button" target="_blank">
+            <a href="YOUR_LINK_HERE_1" class="button" target="_blank">
                 Fast Server (G-Drive)
             </a>
         </div>
 
+        <!-- Button 2: Gdrive Links (Login Required) -->
         <div class="option">
-            <a href="https://drive.google.com/your-video-link-2" class="button" target="_blank">
+            <a href="YOUR_LINK_HERE_2" class="button" target="_blank">
                 Gdrive Links (Login Required)
             </a>
         </div>
 
+        <!-- Button 3: G-Direct (No Resume Support) -->
         <div class="option">
-            <a href="https://drive.google.com/your-video-link-3" class="button" target="_blank">
+            <a href="YOUR_LINK_HERE_3" class="button" target="_blank">
                 G-Direct (No Resume Support)
             </a>
         </div>
 
+        <!-- Button 4: OneDrive -->
         <div class="option">
-            <a href="https://onedrive.live.com/your-video-link-4" class="button" target="_blank">
+            <a href="YOUR_LINK_HERE_4" class="button" target="_blank">
                 OneDrive
             </a>
         </div>
 
+        <!-- Button 5: Other Download Links -->
         <div class="option">
-            <a href="https://example.com/your-video-link-5" class="button" target="_blank">
+            <a href="YOUR_LINK_HERE_5" class="button" target="_blank">
                 Other Download Links
             </a>
         </div>
 
+        <!-- Button 6: Large Green Button for Comment Section -->
+        <div class="option">
+            <a href="YOUR_COMMENT_SECTION_LINK_HERE" class="button button-large" target="_blank">
+                📌 Please comment if you find any broken link in our comment section
+            </a>
+        </div>
+
+        <!-- User Instructions -->
         <p class="note">*** If any file is in (.zip) format, please unzip it after downloading. ***</p>
     </div>
 </body>
